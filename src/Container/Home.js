@@ -2,7 +2,7 @@ import React from 'react';
 
 function Home(props) {
     return (
-        <div>
+        <>
             <div>
                 {/* offcanvas area start */}
                 <div className="offcanvas__area">
@@ -38,7 +38,7 @@ function Home(props) {
                     <div className="slider-area">
                         <div className="swiper-container slider__active">
                             <div className="slider-wrapper swiper-wrapper">
-                                <div className="single-slider swiper-slide slider-height d-flex align-items-center" data-background="%PUBLIC_URL%/assets/img/slider/01-slide-1.jpg">
+                                <div className="single-slider swiper-slide slider-height d-flex align-items-center" data-background="assets/img/slider/01-slide-1.jpg">
                                     <div className="container">
                                         <div className="row">
                                             <div className="col-xl-5">
@@ -56,7 +56,7 @@ function Home(props) {
                                         </div>
                                     </div>
                                 </div>{/* /single-slider */}
-                                <div className="single-slider swiper-slide slider-height d-flex align-items-center" data-background="%PUBLIC_URL%/assets/img/slider/01-slide-2.jpg">
+                                <div className="single-slider swiper-slide slider-height d-flex align-items-center" data-background="assets/img/slider/01-slide-2.jpg">
                                     <div className="container">
                                         <div className="row">
                                             <div className="col-xl-5">
@@ -74,7 +74,7 @@ function Home(props) {
                                         </div>
                                     </div>
                                 </div>{/* /single-slider */}
-                                <div className="single-slider swiper-slide slider-height d-flex align-items-center" data-background="%PUBLIC_URL%/assets/img/slider/01-slide-3.jpg">
+                                <div className="single-slider swiper-slide slider-height d-flex align-items-center" data-background="assets/img/slider/01-slide-3.jpg">
                                     <div className="container">
                                         <div className="row">
                                             <div className="col-xl-5">
@@ -2829,7 +2829,7 @@ function Home(props) {
                 </main>
             </div>
 
-        </div>
+        </>
     );
 }
 
